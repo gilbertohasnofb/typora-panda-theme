@@ -1306,7 +1306,7 @@ pre.md-meta-block:active {
 }
 
 #write {
-  display: block !important;
+  display: block;
   visibility: visible;
   opacity: 1;
   transition: 0.3s;
@@ -2014,4 +2014,11 @@ mark {
 .task-list-done {
     text-decoration: line-through;
     color: hsl(220, 6%, 45%);
+}
+
+kbd {
+  background: #222;
+  color: #ddd;
+  border-color: #444;
+  box-shadow: 0 2px 0 #333;
 }
