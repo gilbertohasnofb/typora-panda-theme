@@ -100,6 +100,7 @@
 
   --node-border: var(--menu-divider-color);
   --node-fill: var(--bg-color5);
+  --mermaid-theme:dark;
   
   --window-border: none;
 }
