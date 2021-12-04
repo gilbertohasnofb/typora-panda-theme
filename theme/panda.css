@@ -68,7 +68,7 @@
   --code-select-bg-color: rgb(64, 72, 89);
   --code-cursor-color: hsl(220, 100%, 66%);
   /* implicit selecttion text bg color */
-  --select-text-bg-color: rgb(150, 156, 170);
+  --select-text-bg-color: rgba(107, 120, 148, 0.5);
   /* implicit button color */
   --primary-color: var(--button-color);
   --primary-btn-border-color: transparent;
@@ -2003,10 +2003,8 @@ g > text.slice {
     margin: 1.5rem 0rem;
 }
 
-
-
 mark {
-    background-color: #FFB86C;
+    background-color: var(--code-yellow-color);
     border-radius: 3px;
     padding: 1px 3px 1px 3px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
